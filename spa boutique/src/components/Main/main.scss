@@ -1,0 +1,47 @@
+@import '../../assets/styles/variables/_sizing.scss';
+@import '../../assets/styles/variables/_fonts.scss';
+
+.main {
+    padding: 50px 0 200px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text-block {
+        max-width: 550px;
+    } 
+
+    &__title {
+        font-weight: $title-weight;
+        font-size: $h1-size;
+        line-height: 83px;
+        margin-bottom: 40px;
+    }
+
+    &__text {
+        font-size: $text-size;
+        line-height: 30px;
+        font-family: $text-font;
+        margin-bottom: 40px;
+    }
+
+    &__button {
+        background-color: #B2AE7F;
+        border-radius: 5px;
+        font-size: $p-size;
+        padding: 10px;
+    }
+
+    &__button:hover {
+        transform: scale(1.1);
+    }
+
+    &__img {
+        max-width: 619px;
+        border-radius: 10px;
+    }
+
+
+}

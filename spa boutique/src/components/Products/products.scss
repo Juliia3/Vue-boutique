@@ -1,0 +1,109 @@
+@import '../../assets/styles/variables/_sizing.scss';
+@import '../../assets/styles/variables/_fonts.scss';
+
+.products {
+    padding: 0 0 130px 0;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__line {
+        margin-bottom: 95px;
+    }
+
+    &__title {
+        font-size: $h2-size;
+        margin-bottom: 35px;
+    }
+
+    &__select {
+        margin-bottom: 50px;
+        display: flex;
+        gap: 50px;
+    }
+
+    &__button {
+        width: 140px;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: #B2AE7F;
+        font-size: $p-size;
+        border: 1px solid black;
+        border: none;
+    }
+
+    &__button:hover {
+        transform: scale(1.08);
+    }
+
+    &__card-block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__card {
+        padding: 15px 15px 25px 15px;
+        width: 260px;
+        border: 1px solid #B2AE7F;
+        border-radius: 5px;
+        background-color: #fff;
+        position: relative;
+    }
+
+    &__card:hover {
+        cursor: pointer;
+    }
+
+    &__card-img {
+        width: 200px;
+        max-height: 200px;
+        margin-bottom: 15px;
+    }
+
+    &__card-category {
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    &__card-category:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    &__card-name {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card-title {
+        font-size: $subtitle-size;
+        margin-bottom: 15px;
+    }
+
+    &__card-price {
+        font-weight: $title-weight;
+        color: #B2AE7F;
+    }
+
+    &__card-button {
+        padding: 8px;
+        border-radius: 5px;
+        background-color: #B2AE7F;
+        font-size: $p-size;
+        border: 1px solid black;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        opacity: 0.5;
+    }
+
+    &__card-button:hover {
+        opacity: 1;
+    }
+
+}

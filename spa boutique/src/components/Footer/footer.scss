@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables/_sizing.scss';
+@import '../../assets/styles/variables/_fonts.scss';
+
+.footer {
+    background-color: #B2AE7F;
+    padding: 70px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+}
