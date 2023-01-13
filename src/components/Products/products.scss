@@ -70,11 +70,6 @@
         font-weight: 700;
     }
 
-    &__card-category:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
-
     &__card-name {
         display: flex;
         justify-content: space-between;
@@ -83,6 +78,11 @@
     &__card-title {
         font-size: $subtitle-size;
         margin-bottom: 15px;
+        color: black;
+    }
+
+    &__card-title:hover {
+        text-decoration: underline;
     }
 
     &__card-price {
