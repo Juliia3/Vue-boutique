@@ -2,15 +2,14 @@
 @import '../../assets/styles/variables/_fonts.scss';
 
 .footer {
-    background-color: #B2AE7F;
-    padding: 70px;
+    background-color: #ffffff;
+    padding: 60px;
 
     &__container {
         display: flex;
         flex-direction: column;
-        max-width: 400px;
-        align-items: center;
-        gap: 30px;
-        text-align: center;
+        align-items: left;
+        gap: 20px;
+        text-align: left;
     }
 }
